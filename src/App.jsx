@@ -1,16 +1,11 @@
 import React, { useState, useRef, useEffect } from "react";
 
-// NexusAi — AI Chat Assistant
-// Signature element: a "nexus" node-network that pulses live as messages
-// travel between user and assistant — visualizing the brand name itself.
-
-const ACCENT = "#5EEAD4"; // mint/teal — the "signal"
+const ACCENT = "#5EEAD4"; 
 const ACCENT_SOFT = "rgba(94, 234, 212, 0.14)";
-const USER_ACCENT = "#818CF8"; // indigo — the "human" node
+const USER_ACCENT = "#818CF8"; 
 
 function NodePulse({ active }) {
-  // Small animated network glyph used in the header — pulses while
-  // the assistant is "thinking", idles otherwise.
+  
   return (
     <svg width="34" height="34" viewBox="0 0 34 34" fill="none">
       <circle cx="17" cy="6" r="2.4" fill={ACCENT} opacity={active ? 1 : 0.5}>
