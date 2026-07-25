@@ -5,7 +5,7 @@ NexusAI Assistant is a simple, fast AI chatbot built as part of the Nexus AI pro
 It uses the Groq API to generate responses and runs through a clean, responsive web interface. The main goal of this project was to understand how an AI model can be connected to a real frontend using a secure serverless API.
 
 <p align="center">
-  <a href="https://nexus-ai-chatbot-git-main-nexusaihq26.vercel.app/">
+  <a href="https://nexus-ai-chatbot-kappa.vercel.app/">
     <strong>Try the Live Demo</strong>
   </a>
 </p>
@@ -55,6 +55,8 @@ The production deployment requires a valid Groq API key configured in Vercel.
 
 ## Tech Stack
 
+| Technology | Purpose |
+|------------|---------|
 | JavaScript | Application and chatbot logic |
 | HTML5 | Page structure |
 | CSS3 | Styling and responsive design |
@@ -71,12 +73,39 @@ The production deployment requires a valid Groq API key configured in Vercel.
 NEXUS-AI-CHATBOT/
 ├── api/
 │   └── chat.js
+├── assets/
+│   └── screenshots/
+│       ├── chatbot-home.png
+│       ├── chatbot-ai-automation.png
+│       └── chatbot-crm-assistance.png
 ├── src/
 │   ├── main.js
 │   └── style.css
+├── .env.example
 ├── .gitignore
+├── LICENSE
+├── README.md
 ├── index.html
 ├── package.json
-├── vite.config.js
-├── README.md
-└── LICENSE
+└── vite.config.js
+```
+
+## 📸 Screenshots
+
+### Home
+
+<p align="center">
+  <img src="assets/screenshots/chatbot-home.png" width="900" alt="NexusAI Assistant Home">
+</p>
+
+### AI Automation
+
+<p align="center">
+  <img src="assets/screenshots/chatbot-ai-automation.png" width="900" alt="AI Automation Demo">
+</p>
+
+### CRM Assistance
+
+<p align="center">
+  <img src="assets/screenshots/chatbot-crm-assistance.png" width="900" alt="CRM Assistant Demo">
+</p>
