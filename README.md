@@ -1,4 +1,8 @@
-# NexusAI Assistant
+<p align="center">
+  <img src="assets/screenshots/banner.png" alt="Nexus AI Chatbot Banner" width="100%">
+</p>
+
+# Nexus AI Chatbot
 
 A modern AI chatbot built with **React**, **Vite**, **Groq API**, and **Vercel Serverless Functions**.
 
